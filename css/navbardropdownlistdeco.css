@@ -1,0 +1,60 @@
+body{
+    background-size: cover;
+margin: 0;
+background-image:url('../images/bangalore-india-skyline-silhouette-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-299.jpg') ;
+background-repeat: no-repeat;
+}
+.flex-container{
+display: flex;
+}
+.left-flex ul li a{
+    text-decoration: none;
+}
+.left-flex ul li{
+    list-style-type: none;
+    display: inline;
+}
+.left-flex{
+    background: green;
+    width: 80%;
+    word-spacing: 60px;
+    margin: left;
+}
+.right-flex{
+background: yellow;
+width: 20%;
+}
+.left-flex ul li:hover{
+color: rgb(0, 0, 0);
+background: white;
+}
+.right-flex h1:hover{
+    color: beige;
+    background: black;
+}
+li.dropdown{
+display: block;
+}
+.dropdown-content{
+display: none;
+position: absolute;
+background-color: aliceblue;
+min-width: 160px;
+box-shadow: wheat;
+right: 710px;
+z-index: 1;
+}
+.dropdown-content a{
+color: black;
+padding: 15px 17px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown a:hover{
+    background: yellow;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+
+}

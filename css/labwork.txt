@@ -1,0 +1,6 @@
+common breakpoints: is there a standard resolution ?
+320px - 480px: mobile device.
+481px - 786px: ipads, tablets.
+769px- 1024px: small screen, laptops.
+1025px- 1200px: desktop , large screen.
+1201px and more - extra large screen ,TV .
