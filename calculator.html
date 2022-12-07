@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+height: auto;
+width: 70%;
+background-color: blue;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin: auto;
+row-gap: 20px;
+column-gap: 20px;
+border-radius: 20px;
+padding: 20px;
+
+}
+.item{
+    height: 80px;
+    font-size: 45px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: transparent;
+    
+}
+input[type="text"]
+{
+width: 90%;
+height: 60px;
+border-radius: 20px;
+border: none;
+}
+.main{
+    text-align: center;
+}
+.heading{
+font-size: 90px;
+background-image: linear-gradient(yellow, red);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+text-transform: uppercase;
+}
+button:hover{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+}
+
+    </style>
+</head>
+<body bgcolor="black">
+    <div class="main"><h1 class="heading"> calculator </h1></div>
+    <div class="container">
+        <div class="item item1"><input type="text"></div>
+        <button class="item">1</button>
+        <button class="item">2</button>
+        <button class="item">3</button>
+        <button class="item">4</button>
+        <button class="item">5</button>
+        <button class="item">6</button>
+        <button class="item">7</button>
+        <button class="item">8</button>
+        <button class="item">9</button>
+        <button class="item">0</button>
+        <button class="item">x</button>
+        <button class="item">+</button>
+        <button class="item">-</button>
+        <button class="item">=</button>
+        <button class="item">c</button>
+    </div>
+</body>
+</html>
